@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web:
+    volumes:
+    - ./db.sqlite3:/app/db.sqlite3
+    build: .
+    image: autocrawl_web
+    dns:
+        - 8.8.8.8
+    ports:
+      - "80:80"
+      - "443:443"
