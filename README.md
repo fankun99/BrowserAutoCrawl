@@ -31,17 +31,19 @@
 
 > **注意**：使用前请确保已安装对应浏览器驱动 
 >
-> docker环境中已经安装Chrome和Firefox 浏览器和对应的浏览器驱动。浏览器路径：
+> docker环境中已经安装Chrome和Firefox 浏览器和对应的浏览器驱动。
 >
-> Chrome：  /usr/bin/google-chrome
+> 浏览器路径：
 >
-> Firefox ： /usr/bin/firefox/firefox
+> ​       Chrome：  /usr/bin/google-chrome
+>
+> ​       Firefox ： /usr/bin/firefox/firefox
 >
 > 驱动路径：
 
-> Chrome： /app/chromedriver
+> ​       Chrome： /app/chromedriver
 >
-> Firefox ：/app/geckodriver
+> ​       Firefox ：/app/geckodriver
 >
 
 ## 技术亮点
